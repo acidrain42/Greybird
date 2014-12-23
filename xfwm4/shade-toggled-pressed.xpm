@@ -4,7 +4,7 @@ static char * shade_toggled_pressed_xpm[] = {
 ".	c #8D8D8D",
 "+	c #FFFFFF",
 "@	c #DEDEDE s active_color_2",
-"$	c #669BC3 s active_color_1",
+"$	c #949494 s active_color_1",
 "....................",
 "++++++++++++++++++++",
 "@@@@@@@@@@@@@@@@@@@@",

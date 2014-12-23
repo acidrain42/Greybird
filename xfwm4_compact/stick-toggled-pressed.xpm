@@ -5,7 +5,7 @@ static char * stick_toggled_pressed_xpm[] = {
 ".	c #8D8D8D",
 "+	c #FFFFFF",
 "@	c #DEDEDE s active_color_2",
-"#	c #5189B5",
+"#	c #838383",
 "$	c #5189B6",
 "%	c #5289B5",
 "&	c #528AB6",

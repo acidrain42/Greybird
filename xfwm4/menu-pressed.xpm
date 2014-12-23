@@ -4,7 +4,7 @@ static char * menu_pressed_xpm[] = {
 " 	c #939393",
 ".	c #FFFFFF",
 "+	c #DEDEDE s active_color_2",
-"@	c #84A8C3 s active_color_1",
+"@	c #A3A3A3 s active_color_1",
 "                    ",
 "....................",
 "++++++++++++++++++++",
