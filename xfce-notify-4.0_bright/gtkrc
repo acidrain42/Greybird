@@ -7,7 +7,7 @@ style "notify-window"
     XfceNotifyWindow::border-radius = 10.0
     XfceNotifyWindow::border-width = 0.5
     XfceNotifyWindow::border-width-hover = 0.5
-    bg[NORMAL] = "#f2f1f1"
+    bg[NORMAL] = "#f1f1f1"
     engine "murrine" {
         textstyle = 1
         text_shade = 1.1
