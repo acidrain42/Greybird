@@ -1493,7 +1493,7 @@ GtkModelButton.button:selected {
 
 .notebook GtkViewport {
     border-width: 0;
-    background-color: @theme_base_color;
+    background-color: transparent;
     color: @theme_text_color;
 }
 
@@ -2089,6 +2089,8 @@ GtkComboBox .separator {
 .sidebar GtkScrolledWindow {
     background-color: mix(shade(@theme_base_color, 0.9), shade(@theme_selected_bg_color, 1.35), 0.1);
     color: mix(@theme_text_color, @theme_base_color, 0.3);
+    /* Don't use symbolic icons in the sidebar */
+    -gtk-icon-style: regular;
 }
 
 .sidebar row:selected,
@@ -3549,7 +3551,8 @@ GtkColorButton.button {
 /***********
  * tooltip *
  ***********/
-.tooltip {
+.tooltip,
+.tooltip.background {
     border-width: 1px;
     border-style: solid;
     border-color: alpha(@theme_tooltip_bg_color, 0.9);
@@ -4379,5 +4382,13 @@ GtkBubbleWindow .toolbar {
 
 .window-frame.csd.tooltip {
     border-radius: 4px;
+    box-shadow: none;
+}
+
+.window-frame.solid-csd {
+    border: solid 1px shade(@theme_bg_color, 0.5);
+    border-radius: 0;
+    margin: 2px;
+    background-color: @theme_bg_color;
     box-shadow: none;
 }
